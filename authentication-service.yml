@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: authentication-service
-        image: rajmandale/bookmyslot:project-authentication-service
+        image: anitadevadiga/authentication-service:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8095
