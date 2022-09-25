@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: product-webapp
-        image: rajmandale/bookmyslot:product-webapp
+        image: anitadevadiga/product-webapp:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 4200
