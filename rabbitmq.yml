@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: eureka-server
-        image: rajmandale/bookmyslot:rabbitmq
+        image: anitadevadiga/rabbitmq:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 15672
