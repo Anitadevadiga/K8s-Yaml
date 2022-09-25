@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: config-server
-        image: rajmandale/bookmyslot:project-config-server
+        image: anitadevadiga/config-server:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8888
